@@ -91,4 +91,4 @@ for company in companies:
 final_df = pd.concat(all_dataframes, ignore_index=True)
 final_df.to_excel("../data/processed/all_companies_extracted.xlsx", index=False)
 
-print(f"\nDone. {len(final_df)} total rows across {len(all_dataframes)} companies.")
+print(f"\nDone.. {len(final_df)} total rows across {len(all_dataframes)} companies.")
