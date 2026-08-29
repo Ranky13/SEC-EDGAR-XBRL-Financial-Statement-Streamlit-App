@@ -82,7 +82,7 @@ st.title("📊 Fintech Financial Health Dashboard")
 st.caption("Comparing Block, PayPal, and Visa across key financial ratios — sourced from SEC EDGAR filings")
 
 # ---- Load data ----
-df = pd.read_excel("../data/processed/ratios.xlsx")
+df = pd.read_excel("data/processed/ratios.xlsx")
 
 # ---- Sidebar filters ----
 st.sidebar.header("Filters")
